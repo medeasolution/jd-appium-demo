@@ -7,4 +7,4 @@ Feature: Calculator
     Given   the app is open
 
   Scenario: Zero is displayed when the calculator starts
-    Then    the "result" label displays the value "0"
+    Then    the "result" label displays the value "1"

@@ -13,4 +13,4 @@ def open_app(context):
 @step('the "{name}" label displays the value "{value}"')
 def label_displays_value(context, name, value):
     element = context.driver.find_element_by_id('result')
-    assert element is not None
+    assert element.text == value, "Values for {} are not equal, expect {} but have {}".format(name, value, element.text)
