@@ -1,0 +1,11 @@
+{
+  "automationName": "UiAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.1",
+  "fullReset": false,
+  "noReset": true,
+  "appPackage": "com.simplemobiletools.calculator",
+  "appWaitActivity": "com.simplemobiletools.calculator.activities.MainActivity",
+  "deviceName": "emulator-5554",
+  "app": "/home/marc/Descargas/calculator-release.apk"
+}
