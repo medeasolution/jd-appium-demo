@@ -24,5 +24,5 @@ def press_button(context, button):
 
 @step('I input numbers "{number}"')
 def input_numbers(context, number):
-    for digit in number:
-        press_button(digit)
+    for digit in str(number):
+        press_button(context, digit)
